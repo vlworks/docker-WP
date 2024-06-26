@@ -13,6 +13,7 @@ package-lock.json
 scripts.js
 *.sh
 *.sql
+.env
 
 wp-html
 wp-db
