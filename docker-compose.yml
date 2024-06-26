@@ -5,6 +5,7 @@ services:
     volumes:
       - ./wp-db:/var/lib/mysql
     restart: always
+    platform: '${PLATFORM:-default}'
     environment:
       - MYSQL_ROOT_PASSWORD=somewordpress
       - MYSQL_DATABASE=wordpress
