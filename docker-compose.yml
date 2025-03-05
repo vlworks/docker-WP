@@ -24,6 +24,7 @@ services:
       - PMA_HOST=db
       - PMA_USER=wordpress
       - PMA_PASSWORD=wordpress
+      - UPLOAD_LIMIT=400M
   wordpress:
     # use wp-xdebug for wp with xdebug
     build:
